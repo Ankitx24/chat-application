@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>WhatsApp Chat Interface</title>
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/material-design-iconic-font/2.2.0/css/material-design-iconic-font.min.css">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="chat">
+        <div class="chat-container">
+            <div class="user-bar">
+                <div class="avatar">
+                    <img src="https://via.placeholder.com/36" alt="Avatar">
+                </div>
+                <div class="name">
+                    AI chatbox
+                    <span class="status">Online</span>
+                </div>
+                <div class="actions">
+                    <i class="zmdi zmdi-more-vert"></i>
+                    <i class="zmdi zmdi-attachment-alt"></i>
+                </div>
+            </div>
+            <div class="conversation">
+                <div class="conversation-container">
+                    <!-- Messages will be appended here by JavaScript -->
+                </div>
+            </div>
+            <div class="conversation-compose">
+                <div class="emoji">
+                    <i class="zmdi zmdi-mood"></i>
+                </div>
+                <input class="input-msg" type="text" placeholder="Type a message" autocomplete="off">
+                <div class="photo">
+                    <i class="zmdi zmdi-camera"></i>
+                </div>
+                <button class="send">
+                    <i class="zmdi zmdi-mail-send"></i>
+                </button>
+            </div>
+        </div>
+    </div>
+<script src="script.js"></script>
+</body>
+</html>
